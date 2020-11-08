@@ -88,12 +88,14 @@ router.post('/login', (req, res) => {
                 return;
             }
             const validPassword = dbUserData.checkPassword(req.body.password);
+            console.log(validPassword);
 
             if (!validPassword) {
                 res.status(400).json({ message: 'Incorrect password!' });
                 return;
             }
             req.session.save(() => {
+                console.log("SAVING SESSION");
 
                 req.session.user_id = dbUserData.id;
                 req.session.username = dbUserData.username;
