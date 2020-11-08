@@ -1,5 +1,5 @@
 
-# [(ORM)E-commerce Back End](https://github.com/fondofhats/tech-blog)
+# [(MVC) The Tech Blog](https://github.com/fondofhats/tech-blog)
   
   ![GitHub](https://img.shields.io/github/license/fondofhats/tech-blog?style=plastic)
   
