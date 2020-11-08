@@ -1,39 +1,53 @@
 :root {
-    --primary: #ccdad1;
-    --secondary: #dce9d5;
-    --tertiary: #788585;
-    --light-dark: #a1a0a1;
-    --dark: #201110;
-    --border-radius: .3rem;
+  --primary: #ccdad1;
+  --secondary: #dce9d5;
+  --tertiary: #788585;
+  --light-dark: #a1a0a1;
+  --dark: #201110;
+  --border-radius: 0.3rem;
 }
 body {
-    background-color: var(--primary);
-    margin: 0;
-    padding: 0;
-    font-family: "IBM Plex Sans", sans-serif;
-    color: var(--dark);
-    line-height: 1.5;
-    font-size: 24px;
+  background-color: var(--primary);
+  margin: 0;
+  padding: 0;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: var(--dark);
+  line-height: 1.5;
+  font-size: 24px;
 }
-
+main {
+  margin: 20px auto;
+  width: 94%;
+}
 .header {
-    padding: 3% 4%;
-    background-color: var(--dark);
-    color: var(--primary);
+  padding: 1% 4%;
+  color: var(--primary);
 }
 
 .app-title {
-    font-size: 3rem;
-    background-color: var(--primary);
-    color: var(--dark);
-    padding: 0 10px;
-    display: inline-block;
-    border-radius: var(--border-radius);
-    box-shadow: 6px 5px var(--light-dark);
+  font-size: 3rem;
+  background-color: var(--primary);
+  color: var(--dark);
+  padding: 0 10px;
+  display: inline-block;
+  border-radius: var(--border-radius);
+  box-shadow: 6px 5px var(--light-dark);
 }
 .navbar-nav > li > a:hover {
-    color: #fff;
+  color: #fff;
 }
-.light-dark{
-    color: var(--light-dark);
+.light-dark {
+  color: var(--light-dark);
+}
+
+h3 {
+  color: var(--primary);
+}
+.card {
+  margin: 0 0 20px 0;
+  border: 2px solid var(--dark);
+  border-radius: var(--border-radius);
+}
+.card-body {
+    background-color: var(--primary);
 }
